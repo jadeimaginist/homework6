@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jade Li</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="echarts.min.js"></script> 
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>JOUR2106</h1>
+            <h3>Homework 6 Google Analytics Exercise</h3>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Audience overview</h2>
+                    <p class="lead">Take page homework 5 as an example </p>
+                    <table border="1" align="center" cellpadding="30" width="400" textalign="center">
+                        <tr>
+                            <th>Sessions</th>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th>Users</th>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th>Pageviews</th>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <th>Pages/Sessions</th>
+                            <td>2.38</td>
+                        </tr>
+                        <tr>
+                            <th>Avg.Session duration</th>
+                            <td>00:02:05</td>
+                        </tr>
+                        <tr>
+                            <th>Bounce Rate</th>
+                            <td>37.50%</td>
+                        </tr>
+                        <tr>
+                            <th>%New Sessions</th>
+                            <td>100%</td>
+                        </tr>
+                        <tr>
+                            <th>Country</th>
+                            <td>Hong Kong</td>
+                        </tr>
+                        </table>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Visualisation Chart</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Chart</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="chart1" style="width: 600px;height:200px;">
+                            
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="chart2" style="width: 600px;height:200px;">
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div  id="chart3" style="width: 600px;height:200px;">
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="chart4" style="width: 600px;height:200px;">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Jade Li</strong>
+                    </h4>
+                    <p>Hong Kong Baptist University
+                        <br>Department of Journalism
+                        <br>International Journalism Concentration</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> +852 6614 2022</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="moeqee@foxmail.com">moeqee@foxmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/sherowithjade"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/jadeimaginist"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="jadeimaginist.wordpress.com"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Jade Li 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--echarts-->
+    <!--chart1 language-->
+    <script type="text/javascript">
+                $(function() {
+                    var myChart1 = echarts.init(document.getElementById('chart1'));
+            option = {
+    title : {
+        text: 'Language',
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['zh-cn','en-us','zh-tw','en-gb',]
+    },
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],
+            data:[
+                {value:3, name:'zh-cn'},
+                {value:2, name:'en-us'},
+                {value:2, name:'zh-tw'},
+                {value:1, name:'en-gb'},
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+                myChart1.setOption(option);
+ });
+
+    </script>
+    <!--end chart 1 language-->
+    <!--start chart 2 browser-->
+    <script type="text/javascript">
+    $(function() {
+                    var myChart2 = echarts.init(document.getElementById('chart2'));
+    option = {
+    title : {
+        text: 'Browser',
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['Safari','Safari(inapp)','Chrome']
+    },
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],
+            data:[
+                {value:3, name:'Safari'},
+                {value:3, name:'Safari(inapp)'},
+                {value:2, name:'Chrome'}
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+myChart2.setOption(option);
+ });
+    </script>
+    <!--end chart 2 browser-->
+    <!--start chart 3 service provider-->
+    <script type="text/javascript">
+     $(function() {
+                    var myChart3 = echarts.init(document.getElementById('chart3'));
+                    option = {
+    title : {
+        text: 'Service Provider',
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['HKBU','HK Broadband Ltd','City U','HK Cable TV Ltd']
+    },
+    series : [
+        {
+            name: 'Service Provider',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],
+            data:[
+                {value:4, name:'HKBU'},
+                {value:2, name:'HK Broadband Ltd'},
+                {value:1, name:'City U'},
+                {value:1, name:'HK Cable TV Ltd'}
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+
+
+    myChart3.setOption(option);
+ });
+    </script>
+    <!--end chart 3 service provider-->
+    <!--start chart 4 behavior-->
+    <script type="text/javascript">
+    $(function() {
+                    var myChart4 = echarts.init(document.getElementById('chart4'));
+                    option = {
+    title : {
+        text: 'Page Views',
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['HW1','HW4','HW5','Index']
+    },
+    series : [
+        {
+            name: 'Page Views',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],
+            data:[
+                {value:7, name:'HW1'},
+                {value:6, name:'HW4'},
+                {value:3, name:'HW5'},
+                {value:2, name:'Index'}
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+
+                    myChart4.setOption(option);
+ });
+
+    </script>
+    <!--end chart 4 behavior >
+  
+</body>
+</html>
